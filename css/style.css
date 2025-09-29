@@ -82,10 +82,12 @@ nav a:focus{
 @media (min-width: 825px){
 
      /* Step 10: Write the selector/rule property to style the nav element */
-     /* nav{
+     /* header nav{
           display: grid;
+          position: absolute;
           right: 0;
           padding: 35px 0;
+          z-index: 1000;
      } */
 
      header { 
@@ -95,7 +97,7 @@ nav a:focus{
      header nav{
           justify-self: end;
           padding: 35px 0;
-          width: 100%;
+          /* width: 100%; */
      }
      
      /* Step 11: Write the selector/rule property to update the .container class */
